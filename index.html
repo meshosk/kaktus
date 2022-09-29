@@ -21,9 +21,30 @@
             left: 50%;
             transform: translate(-50%,-50%);
         }
+        .bird {
+            background-image: url("https://www.thesprucepets.com/thmb/g94CQgan3zAgls26gxEJmfi2s5o=/3200x2400/smart/filters:no_upscale()/popular-small-bird-species-390926-hero-d3d0af7bb6ed4947b0c3c5afb4784456.jpg");
+            width: 200px;
+            height: 200px;
+            background-size: cover;
+            position: absolute;
+        }
+
+        .right {
+            right: 0;
+            transform: scaleX(-1);
+        }
+
+        .bottom {
+            bottom: 0;
+        }
+
     </style>
 </head>
 <body>
     <div class="sun"></div>
+    <div class="bird right"></div>
+    <div class="bird right bottom"></div>
+    <div class="bird bottom"></div>
+    <div class="bird"></div>
 </body>
 </html>
